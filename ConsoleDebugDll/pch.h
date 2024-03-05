@@ -11,6 +11,8 @@
 // Fügen Sie hier Header hinzu, die vorkompiliert werden sollen.
 #include <Windows.h>
 #include "detours.h"
+#include "typedefs.h"
+#include "Util.h"
 #include "framework.h"
 
 #endif //PCH_H

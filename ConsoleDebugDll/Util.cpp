@@ -1,5 +1,9 @@
 #include "pch.h"
 #include <iostream>
+
+
+CMPOBJHANLDES CompareObjectHandlesPt = (CMPOBJHANLDES)GetProcAddress(GetModuleHandleW(TEXT("kernelbase.dll")), "CompareObjectHandles");
+
 //#include <windows.h>
 VOID logFile(char* str) {
   std::cerr << str << "\n";
