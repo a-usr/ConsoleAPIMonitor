@@ -1,0 +1,3 @@
+LIBRARY  ConsoleDebugDll
+EXPORTS
+  DetourFinishHelperProcess  @1
